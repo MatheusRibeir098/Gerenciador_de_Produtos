@@ -1,0 +1,127 @@
+/* static/style.css */
+
+/* Configuração Geral da Página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 40px;
+    color: #333;
+}
+
+/* O Cartão Branco Centralizado */
+.container {
+    max-width: 900px;
+    background-color: white;
+    margin: 0 auto; /* Centraliza na tela */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Sombra suave */
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+/* Formulário */
+.form-box {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 10px; /* Espaço entre os inputs */
+    flex-wrap: wrap; /* Quebra linha se a tela for pequena */
+}
+
+input {
+    flex: 1; /* Inputs ocupam o espaço disponível */
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #3498db;
+}
+
+/* Botões */
+button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-primary {
+    background-color: #2ecc71; /* Verde */
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #27ae60;
+}
+
+.btn-warning {
+    background-color: #f1c40f; /* Amarelo */
+    color: #333;
+}
+
+.btn-cancel {
+    background-color: #95a5a6; /* Cinza */
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* Tabela de Produtos */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #34495e;
+    color: white;
+    text-align: left;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Links de Ação (Editar/Excluir) */
+.acao-link {
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.editar { color: #f39c12; }
+.excluir { color: #e74c3c; }
+
+/* Tag de Categoria (Badge) */
+.badge {
+    background-color: #e3f2fd;
+    color: #1565c0;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.85em;
+    font-weight: bold;
+}
