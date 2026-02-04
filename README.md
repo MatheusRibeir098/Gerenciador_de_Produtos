@@ -5,12 +5,6 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.109.0-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
 
-> Um sistema web completo para gerenciamento de estoque e preços, desenvolvido com foco em performance e simplicidade.
-
-## 🖼️ Preview
-
-![Screenshot da Aplicação](screenshot.png)
-*(Adicione um print da sua tela aqui para valorizar o projeto)*
 
 ## 🚀 Sobre o Projeto
 
